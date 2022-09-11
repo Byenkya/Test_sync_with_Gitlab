@@ -37,5 +37,5 @@ jobs:
         echo Syncing two repos
         git config user.name "Byenkya"
         git config user.email "jbyenkya@idi.co.ug"
-        git remote set-url origin "http://oauth2:glpat-GxqgnxFmftk5s63R_y_q@gitlab.com/Byenkya/Test_sync_with_Gitlab.git"
+        git remote set-url origin "https://oauth2:glpat-GxqgnxFmftk5s63R_y_q@gitlab.com/Byenkya/Test_sync_with_Gitlab.git"
         git push -f origin '*:*'
